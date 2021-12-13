@@ -1,0 +1,68 @@
+{
+  "extends": [
+    "google",
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "prettier",
+    "@typescript-eslint",
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "always",
+      {}
+    ],
+    "computed-property-spacing": [
+      "error",
+      "always",
+      {}
+    ],
+    "eqeqeq": "warn",
+    "import/prefer-default-export": "off",
+    "indent": [
+      "error",
+      2
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 80
+      }
+    ],
+    "new-cap": "warn",
+    "no-unused-vars": "warn",
+    "object-curly-spacing": [
+      "error",
+      "always",
+      {}
+    ],
+    "prefer-const": "warn",
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "require-jsdoc": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true
+  }
+}
