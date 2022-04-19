@@ -1,16 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import { app, header, link, logo } from './App.module.scss';
+import reactLogo from './logo.svg';
 
 const App: () => JSX.Element = () => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
+  <div className={app}>
+    <header className={header}>
+      <img src={reactLogo} className={logo} alt="logo" />
       <p>
           Edit <code>src/App.tsx</code> and save to reload.
       </p>
       <a
-        className="App-link"
+        className={link}
         href="https://reactjs.org"
         target="_blank"
         rel="noopener noreferrer"
