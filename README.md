@@ -5,6 +5,7 @@ Based on `npx create-react-app my-app --template typescript`
 Migrated to vite
 
 Additions/Changes:
-- Added node-sass
+- Added sass support
+- Added css/scss module support
 - Added eslint with support for typescript and react rules
 - Added additional meta tags to index.html
