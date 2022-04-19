@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React, { HTMLProps, useState } from 'react';
 
 // Style imports
@@ -17,9 +18,9 @@ const TemplateComponent: React.FC<TemplateComponentProps> = ({
 }) => {
   const [ testState, setTestState ] = useState<string>('');
   return (
-    <>
+    <motion.div>
 
-    </>
+    </motion.div>
   );
 };
 

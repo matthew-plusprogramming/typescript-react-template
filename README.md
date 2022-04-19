@@ -10,3 +10,4 @@ Additions/Changes:
 - Added eslint with support for typescript and react rules
 - Added additional meta tags to index.html
 - Added template component and context
+- Added framer motion support
