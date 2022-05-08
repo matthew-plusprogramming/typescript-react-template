@@ -1,5 +1,6 @@
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import svgrPlugin from 'vite-plugin-svgr';
+import viteTSConfigPaths from 'vite-tsconfig-paths';
 import { defineConfig } from 'vitest/config';
 
 // https://vitejs.dev/config/
@@ -21,6 +22,7 @@ export default defineConfig({
         icon: true
         // ...svgr options (https://react-svgr.com/docs/options/)
       }
-    })
+    }),
+    viteTSConfigPaths()
   ]
 });

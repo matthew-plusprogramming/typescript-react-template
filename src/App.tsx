@@ -1,4 +1,5 @@
 import React from 'react';
+import { TemplateComponent } from '@components/TemplateComponent';
 import { app, header, link, logo } from './App.module.scss';
 import reactLogo from './logo.svg';
 
@@ -17,6 +18,7 @@ const App: () => JSX.Element = () => (
       >
           Learn React
       </a>
+      <TemplateComponent />
     </header>
   </div>
 );

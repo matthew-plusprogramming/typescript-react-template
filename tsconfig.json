@@ -15,6 +15,21 @@
         "name": "typescript-plugin-css-modules"
       }
     ],
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@contexts/*": [
+        "contexts/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ]
+    },
     "allowJs": false,
     "skipLibCheck": false,
     "esModuleInterop": false,
