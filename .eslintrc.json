@@ -68,6 +68,11 @@
             "pattern": "assets/**",
             "group": "internal",
             "position": "after"
+          },
+          {
+            "pattern": "pages/**",
+            "group": "internal",
+            "position": "after"
           }
         ],
         "pathGroupsExcludedImportTypes": [
@@ -106,6 +111,20 @@
       2,
       "always"
     ]
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [
+        ".ts",
+        ".tsx"
+      ]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "."
+      }
+    }
   },
   "parserOptions": {
     "ecmaVersion": 2021,
