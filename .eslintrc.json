@@ -38,8 +38,13 @@
       "always",
       {}
     ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
     "eqeqeq": "warn",
     "import/prefer-default-export": "off",
+    "import/no-unresolved": "error",
     "import/order": [
       "error",
       {
@@ -84,6 +89,14 @@
         }
       }
     ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true,
+        "avoidEscape": true
+      }
+    ],
     "indent": [
       "error",
       2
@@ -95,6 +108,13 @@
       }
     ],
     "new-cap": "warn",
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 99999,
+        "maxEOF": 0
+      }
+    ],
     "no-unused-vars": "warn",
     "object-curly-spacing": [
       "error",
