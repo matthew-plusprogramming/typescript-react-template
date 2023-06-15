@@ -1,4 +1,4 @@
-import reactRefresh from '@vitejs/plugin-react-refresh';
+import react from '@vitejs/plugin-react';
 import svgrPlugin from 'vite-plugin-svgr';
 import viteTSConfigPaths from 'vite-tsconfig-paths';
 import { defineConfig } from 'vitest/config';
@@ -16,7 +16,7 @@ export default defineConfig({
     outDir: 'build'
   },
   plugins: [
-    reactRefresh(),
+    react(),
     svgrPlugin({
       svgrOptions: {
         icon: true
