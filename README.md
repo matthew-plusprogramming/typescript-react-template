@@ -11,6 +11,7 @@ Additions/Changes:
 - Added additional meta tags to index.html
 - Added template component and context
 - Added framer motion support
+- Added gitmoji support
 
 Planned changes:
 - Path aliases
