@@ -1,4 +1,5 @@
 import React from 'react';
+// Must use the workspace version of typescript for this to not error
 import { app, header, link, logo } from './App.module.scss';
 import { TemplateComponent } from './components/TemplateComponent';
 import reactLogo from './logo.svg';
