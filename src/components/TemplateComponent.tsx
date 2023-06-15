@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import React, { HTMLProps, useState } from 'react';
 
 interface TemplateComponentProps extends HTMLProps<HTMLDivElement> {
-  testProp: string;
+  testProp?: string;
 }
 
 const TemplateComponent: React.FC<TemplateComponentProps> = ({

@@ -1,9 +1,9 @@
 import React from 'react';
-import { TemplateComponent } from '@components/TemplateComponent';
 import { app, header, link, logo } from './App.module.scss';
+import { TemplateComponent } from './components/TemplateComponent';
 import reactLogo from './logo.svg';
 
-const App: () => JSX.Element = () => (
+const App: () => React.JSX.Element = () => (
   <div className={app}>
     <header className={header}>
       <img src={reactLogo} className={logo} alt="logo" />
